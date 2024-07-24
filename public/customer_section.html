@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire a Business Runner - Auronix Business</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-blue-600 text-white text-center py-5">
+        <h1 class="text-3xl font-bold">Hire a Business Runner</h1>
+    </header>
+
+    <main class="flex flex-col items-center mt-10">
+        <section id="profiles" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4" data-aos="fade-up">
+            <!-- Profiles will be dynamically loaded here -->
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
